@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png');
+}
+
+.PasswordGenerator {
+
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  
+}
+.Title{
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: bisque;
+  padding-bottom: 0rem;
+  
+}
+
+.ButtonAction {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.submit{
+  justify-content: center;
+  background-color: rgb(255, 123, 0);
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px rgb(5, 160, 187);
+  transition-duration: 0.5s;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.submit:hover {
+  transition-duration: 1s;
+}
+
+.btn{
+    justify-content: center;
+  background-color: rgb(42, 245, 6);
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px blue;
+  transition-duration: 0.5s;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn:hover{
+  transition-duration: 1s;
+}
+
+.form-control {
+  text-align: center;
+  border-radius: 0.5em;
+  block-size: 5ex;
+}
