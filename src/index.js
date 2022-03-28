@@ -28,7 +28,7 @@ const AskUser = () => {
   /**FUNCTION FOR RECIEVE THE PASSWORD */
   const [Password, setPassword] = useState(0)
   const handFormSubmit = () => {
-    fetch('/password', {
+    fetch('https://heart-api.herokuapp.com/password', {
       method: 'POST',
       body: JSON.stringify({
         content: value,
