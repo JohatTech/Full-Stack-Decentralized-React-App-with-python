@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Passwrod generator with React JS and Flask 
+
+This is a webapplication that can generate strong password for you, the only input it need is the maximun length of the password, but you should give it length more than 8 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
